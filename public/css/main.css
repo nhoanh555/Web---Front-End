@@ -1,0 +1,222 @@
+body {
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:  darkgrey;
+}
+.nm-page-wrap {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background: #faf9f9;
+}
+.nav-left {
+  white-space: nowrap;
+}
+
+.logo-wrap {
+    text-align: center;
+}
+
+.logo {
+    height: 16px;
+}
+
+.nav-right {
+    float: right;
+    padding-right: 15px;
+    float: right;
+}
+
+.nav-left a, .nav-right a {
+    padding: 15px;
+    color: #000;
+}
+
+.menu-wrapper {
+    display: flex;
+    align-items: center;
+}
+  
+.ts-menu ul {
+    display: flex;
+    list-style: none;
+}
+  
+.ts-menu a {
+    text-decoration: none;
+}
+
+.dropdown-menu,
+.dropdown-menu2 li,
+.dropdown-menu2 li ul,
+.dropdown-menu2 li ul li,
+.dropdown4 .dropdown-menu4 {
+  display: none;
+  padding: 3px 5px;
+}
+
+.dropdown-menu a,
+.dropdown-menu2 a,
+.dropdown-menu4 a {
+  text-decoration: none;
+}
+
+.dropdown2:hover .dropdown-menu2 li,
+.dropdown2:hover .dropdown-menu2 li ul,
+.dropdown2:hover .dropdown-menu2 li ul li,
+.dropdown4:hover .dropdown-menu4 {
+  display: block;
+}
+
+
+.dropdown-menu2,
+.dropdown-menu4 {
+  position:absolute;
+  background-color:rgb(48, 43, 43);
+  border-radius: 5px;
+  left: 220px;
+  color: darkgrey;
+}
+.dropdown-container:hover .dropdown-menu2,
+.dropdown-container:hover .dropdown-menu4 {
+  display: block;
+}
+  
+.dropdown-menu4 li {
+  padding: 5px 10px;
+}
+#sangchu:hover{
+  color: rgb(197, 195, 195);
+}
+.dropdown-menu4 a:hover {
+  color: rgb(211, 208, 208);
+}
+.dropdown,
+.dropdown-toggle {
+  color: #A0A0A0;
+}
+.dropdown3 a{
+  color: aliceblue;
+  padding: 5px 10px;
+}
+.dropdown3 li:hover {
+  background-color: rgb(248, 251, 251);
+}
+.dropdown-menu4 li a {
+  color: #A0A0A0;
+}
+#mau{
+  background-color:white;
+  box-shadow: 0 0 10px rgb(178, 178, 178);
+}
+.wpb_single_image img {
+  height: auto;
+  max-width: 100%
+}
+
+.wpb_single_image img {
+  height: auto;
+  max-width: 100%
+}
+.header-transparency .nm-header-placeholder {
+    display: none
+}
+.header-transparency .nm-header-placeholder {
+    display: none
+}
+.dropdown3 li:hover{
+  color: #f7f4f4;
+  background-color:rgb(48, 43, 43);
+}
+#mau1 a:hover{
+  color: rgb(246, 145, 30);
+}
+#size{
+  margin-top: 56px;
+  padding: 15px;
+}
+.an {
+  visibility:hidden;
+ 
+}
+.dropdown-hd:hover .an{
+  display: block;
+}
+#size1{
+  border: none;
+  height: 20px;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.chu{
+  font-size: 16px;
+}
+
+#color{
+  color: #ffffff;
+  background-color: #000;
+  height: 100px;
+}
+
+#xuong{
+  float: left;
+  padding-left: 10px;
+}
+img { vertical-align:middle; }
+.box-hover {
+    border: 1px solid #CCC;
+    overflow: hidden;
+    position: relative;
+}
+.box-hover img {
+    max-width: 100%;
+    transition: all 1s;
+}
+
+.box-hover .img-change {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 1;
+}
+.box-hover:hover .img-change {
+    opacity: 0;
+}
+#chon a:hover {
+  color: #000;
+}
+h4{
+  font-size: 16px;
+}
+.giua{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#xoavien{
+  border: none;
+}
+
+.custom-container {
+  width: 502px;
+  height: 562.8px;
+
+}
